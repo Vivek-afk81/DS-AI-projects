@@ -198,6 +198,8 @@ A combined model trained on all tickers simultaneously includes test-period rows
 
 **Why VADER instead of FinBERT?**
 VADER runs completely offline with no API key and no cost. For daily sentiment aggregation from headlines it is sufficient and far more practical for a free deployment.
+VADER is computationally inexpensive and fast, making it ideal for real-time sentiment analysis on low-resource machines or simple deployment environments without requiring GPU support.
+
 
 **Why SQLite?**
 Zero-cost, zero-configuration, and sufficient for logging backtest results across runs.
